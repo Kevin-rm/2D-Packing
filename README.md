@@ -20,14 +20,7 @@ Voici un exemple de code Python implémentant l'algorithme d'allocation de mémo
 ### Définition des Blocs de Mémoire et des Demandes
 
 ```python
-# Définir les blocs de mémoire avec leurs tailles (initialement tous sont libres)
-memory_blocks = [
-    {'size': 100, 'allocated': False},
-    {'size': 500, 'allocated': False},
-    {'size': 200, 'allocated': False},
-    {'size': 300, 'allocated': False},
-    {'size': 600, 'allocated': False}
-]
-
-# Définir les demandes d'allocation
-allocation_requests = [212, 417, 112, 426]
+# Définir les blocs de mémoire avec leurs tailles (initialement tous sont libr
+objets = [417, 426 , 220, 112]
+bacsMax = 3
+taillebacs = 500
